@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "spigetaddons",
+    "name": "SpigetAddons",
+    "description": "Hypixel Skyblock mod containing small features to improve the quality of life.",
+    "version": "${version}",
+    "mcversion": "${mcVersionStr}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Spiget"],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
