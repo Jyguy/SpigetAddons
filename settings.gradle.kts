@@ -15,7 +15,7 @@ pluginManagement {
 }
 
 rootProject.buildFileName = "root.gradle.kts"
-rootProject.name = "ForgeTemplate"
+rootProject.name = "SpigetAddons"
 
 val mcVersion = "1.8.9"
 
