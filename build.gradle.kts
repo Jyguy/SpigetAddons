@@ -4,6 +4,7 @@ plugins {
     kotlin("jvm")
     id("gg.essential.multi-version")
     id("gg.essential.defaults")
+    id("io.freefair.lombok") version "6.5.0.3"
 }
 
 val modGroup: String by project
