@@ -16,7 +16,7 @@ import xyz.reknown.spigetaddons.listeners.ClientChatReceivedListener;
 import xyz.reknown.spigetaddons.listeners.TickListener;
 import xyz.reknown.spigetaddons.listeners.WorldListener;
 
-@Mod(name = "SpigetAddons", modid = "spigetaddons", version = "1.0.0")
+@Mod(name = "SpigetAddons", modid = "spigetaddons", version = "1.1.0")
 
 public class SpigetAddons {
     @Mod.Instance
