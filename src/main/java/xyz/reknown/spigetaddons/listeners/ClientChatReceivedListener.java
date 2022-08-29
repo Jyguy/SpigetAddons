@@ -2,11 +2,10 @@ package xyz.reknown.spigetaddons.listeners;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraft.util.ChatComponentText;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import xyz.reknown.spigetaddons.SpigetAddons;
-import xyz.reknown.spigetaddons.util.StringUtil;
+import xyz.reknown.spigetaddons.util.PlayerUtil;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -24,7 +23,7 @@ public class ClientChatReceivedListener {
             SpigetAddons.INSTANCE.getConfig().setApiKey(apiKey);
             EntityPlayerSP player = Minecraft.getMinecraft().thePlayer;
             if (player == null) return;
-            player.addChatMessage(new ChatComponentText(StringUtil.formatColor("&a[SpigetAddons] Set up API key! ✔")));
+            PlayerUtil.message("&a[SpigetAddons] Set up API key! ✔");
         }
     }
 }
